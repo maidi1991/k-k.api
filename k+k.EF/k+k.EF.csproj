@@ -5,4 +5,12 @@
     <RootNamespace>k_k.EF</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\k+k.Model\k+k.Model.csproj" />
+  </ItemGroup>
+
 </Project>
