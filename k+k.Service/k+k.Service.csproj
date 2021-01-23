@@ -5,4 +5,8 @@
     <RootNamespace>k_k.Service</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\k+k.EF\k+k.EF.csproj" />
+  </ItemGroup>
+
 </Project>
